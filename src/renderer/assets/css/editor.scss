@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+.editor-box-view .blocklyPath {
+    stroke: rgba(0, 0, 0, .3);
+    stroke-opacity: .3;
+}
+.editor-box-view .blocklyTreeRoot {
+    padding: 0;
+}
+.editor-box-view .blocklySvg{
+    background-color: rgba(43, 43, 43, 1) !important;
+}
+.editor-box-view .blocklyFlyoutBackground{
+    border-radius: 0 !important;
+}
+.editor-box-view .blocklyFlyoutButtonBackground{
+    stroke: #4FA0FF;
+    fill: #4FA0FF;
+}
+.blocklyDropDownDiv{
+    z-index: 20000 !important;
+}
+.blocklyWidgetDiv .goog-menuitem-content, .editor-box-view .blocklyDropDownDiv .goog-menuitem-content{
+    font-size: 12px !important;
+}
+.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content, .editor-box-view .blocklyDropDownDiv .goog-menuitem-disabled .goog-menuitem-content{
+    color: #666666 !important;
+}
+.blocklyWidgetDiv .goog-menu{
+    background-color: rgba(60, 63, 65, 1) !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+.blocklyWidgetDiv .goog-menuitem-content{
+    color: #999999 !important;
+}
+.blocklyWidgetDiv .goog-menu::-webkit-scrollbar {
+    display: none !important;
+}
+.editor-box-view .blocklyToolboxDiv {
+    background-color: rgba(50, 50, 50, 1) !important;
+    height: 100% !important;
+    z-index: 5 !important;
+}
+.editor-box-view .blocklyToolboxDiv::-webkit-scrollbar {
+    display: none !important;
+}
+.editor-box-view .blocklyToolboxDiv.blocklyToolboxDelete{
+    line-height: 100%;
+    text-align: center;
+}
+.editor-box-view .blocklyToolboxDiv.blocklyToolboxDelete:after {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 64px;
+    height: 100%;
+    line-height: 100%;
+    background-color: rgba(254, 108, 108, .6);
+    background-position: center 40%;
+    background-size: 80%;
+    background-repeat: no-repeat
+}
+.editor-box-view .injectionDiv .Blockly-tree-item {
+    height: 64px;
+}
+.editor-box-view .blocklyFlyoutBackground{
+    fill: rgba(51, 53, 54, 1) !important;
+}
+.editor-box-view .blocklyScrollbarHorizontal, .editor-box-view .blocklyScrollbarVertical{
+    display: none !important;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow {
+    width: 64px;
+    height: 64px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    position: relative;
+    padding: 10px 0 !important;
+}
+.editor-box-view .injectionDiv .blocklyTreeIcon {
+    display: block!important;
+    text-align: center;
+    background-image: none;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow:after {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    height: 0;
+    width: 100%;
+    content: "";
+    border-bottom: 1px solid rgba(50, 50, 50, 1)
+}
+.editor-box-view .injectionDiv .blocklyTreeRow .blocklyTreeIcon:after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-size: 100% 100%
+}
+.editor-box-view .injectionDiv .blocklyTreeRow:hover, .editor-box-view .injectionDiv .blocklyTreeRow.blocklyTreeSelected{
+    background-color: rgba(50, 50, 50, 1) !important;
+    cursor: pointer;
+}
+.editor-box-view .injectionDiv .blocklyTreeLabel{
+    font-size: 12px;
+    color: #666666 !important;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow:hover .blocklyTreeLabel, .editor-box-view .injectionDiv .blocklyTreeRow.blocklyTreeSelected .blocklyTreeLabel{
+    cursor: pointer;
+    color: #999999 !important;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow.control .blocklyTreeIcon:after {
+    background-color: #4350AF;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow.operator .blocklyTreeIcon:after {
+    background-color: #286DFA;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow.data .blocklyTreeIcon:after {
+    background-color: #4FA0FF;
+}
+.editor-box-view .injectionDiv .blocklyTreeRow.function .blocklyTreeIcon:after {
+    background-color: #3D3DFF;
+}
+.editor-box-view .zelos-renderer.classic-theme .blocklyNonEditableText>text, .editor-box-view .zelos-renderer.classic-theme .blocklyEditableText>text, .editor-box-view .zelos-renderer.classic-theme .blocklyNonEditableText>g>text, .editor-box-view .zelos-renderer.classic-theme .blocklyEditableText>g>text{
+    font-size: 11pt !important;
+}
+
+.ace-monokai{
+    background-color: rgba(43, 43, 43, 1) !important;
+}
+.ace-monokai .ace_gutter{
+    background-color: rgba(50, 50, 50, 1) !important;
+}
+.ace_editor.ace_autocomplete{
+    width: auto !important;
+    min-width: 300px !important;
+}
+.ace_dark.ace_editor.ace_autocomplete{
+    background-color: rgba(43, 43, 43, 1) !important;
+    border: 1px solid rgba(60, 63, 65, .5) !important;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2) !important;
+}
+.ace_gutter-cell{
+    color: #666666 !important;
+}
+.ace_gutter-cell.ace_gutter-active-line{
+    color: #999999 !important;
+}
+.ace-monokai .ace_marker-layer .ace_selection{
+    background-color: rgba(60, 63, 65, 1) !important;
+}
+.ace-monokai .ace_comment{
+    color: #555555 !important;
+}
+.ace-monokai .ace_gutter-active-line{
+    background-color: rgba(60, 63, 65, .5) !important;
+}
+.ace-monokai .ace_marker-layer .ace_active-line{
+    background-color: rgba(60, 63, 65, .5) !important;
+}
+.ace_tooltip{
+    background-color: rgba(60, 63, 65, 1) !important;
+    color: #999999 !important;
+    border: 1px solid rgba(60, 63, 65, 1) !important;
+    line-height: 20px !important;
+}
+.ace_tooltip b{
+    width: 100% !important;
+    height: 24px;
+    display: block;
+    border-bottom: 1px solid rgba(43, 43, 43, 1) !important;
+}
+.ace_tooltip hr{
+    display: none !important;
+}
+
+.lingo3d-ui{
+    color: #999999 !important;
+}
