@@ -12,6 +12,7 @@
                 <div class="left-tree">
                     <SceneGraph v-if="pageData.editor.tab.value === 'node'" />
                     <Library v-if="pageData.editor.tab.value === 'resource'" />
+
                 </div>
             </div>
             <div class="simulation-item">
