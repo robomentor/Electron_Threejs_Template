@@ -22,5 +22,5 @@ export default defineConfig({
     build: {
         outDir: "release/dist",
         emptyOutDir: false
-    },
+    }
 })

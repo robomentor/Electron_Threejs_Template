@@ -162,7 +162,12 @@ export default defineComponent({
         return {
             props,
             pageData,
-            onSwitchTab
+            onSwitchTab,
+            Toolbar,
+            SceneGraph,
+            Library,
+            Editor,
+            World
         }
     }
 });
